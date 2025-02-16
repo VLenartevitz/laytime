@@ -4,3 +4,54 @@
     /* NOTE: We would use `body {` if we'd like the font to be applied to everything. */
     font-family: "Montserrat", "Raleway";
 }
+.kcButtonPrimaryClass {
+    background: linear-gradient(90deg, #AD1584 42%, #D40457 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding: 12px 24px; */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.kcButtonPrimaryClass:hover {
+    background: linear-gradient(90deg, #D40457 42%, #AD1584 100%);
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+}
+
+.kcButtonClass{
+    background: linear-gradient(90deg, #AD1584 42%, #D40457 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding: 12px 24px; */
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+/* .kcButtonClass{
+    background: linear-gradient(90deg, #AD1584 42%, #D40457 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+}
+.kcButtonClass{
+    background: linear-gradient(90deg, #AD1584 42%, #D40457 100%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+} */
